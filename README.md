@@ -1,15 +1,16 @@
 # Image-captioning-with-visual-attention
-To build networks capable of perceiving contextual subtleties in images, to relate observations to both the scene and the real world, and to output succinct and accurate image descriptions; all tasks that we as people can do almost effortlessly.
+Building networks that can recognise delicate context cues in photos, connect observations to the scene and the outside world, and produce short and accurate image descriptions are all tasks that come naturally to individuals.
 
-Deep Learning is a very rampant field right now – with so many applications coming out day by day. In this case study, I have made an Image Captioning refers to the process of generating textual description from an image – based on the objects and actions in the image. For example:
+Nowadays, deep learning is a very popular field with a huge number of new applications being released daily. Image captioning is the process of creating written descriptions from a picture based on the items and behaviours in the image, and it is used in this case study. For instance:
 ![image](https://user-images.githubusercontent.com/40149802/70611367-146bc500-1c2b-11ea-9941-75fa7366655e.png)
 
 ## Problem Statemtent
-Image captioning is an interesting problem, where we can learn both computer vision techniques and natural language processing techniques. In case study I have followed Show, Attend and Tell: Neural Image Caption Generation with Visual Attention and create an image caption generation model using Flicker 8K data. This model takes a single image as input and output the caption to this image and read that predicted caption.
+An intriguing subject to learn about is image captioning, which combines natural language processing and computer vision techniques. I created an image caption generation model utilising Flicker 8K data for my research project.This model reads the predicted caption from a single image as input and outputs it to the image.
+
 
 ## Dependencies
 * Python 3
-* Tensorflow 2.0
+* Tensorflow 2.2
 * gtts
 
 ## Business Objectives and Constraints
